@@ -4,8 +4,8 @@ phases:
     runtime-versions:
       python: 3.7
     commands:
-      - sudo apt-get update
-      - sudo apt-get install -y python3.7 python3.7-dev python3.7-distutils
+      - apt-get update
+      - apt-get install -y python3.7 python3.7-dev python3.7-distutils
       - python -m pip install Flask
         
   build:
